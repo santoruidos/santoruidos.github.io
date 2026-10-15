@@ -94,3 +94,11 @@ main{max-width:var(--max);margin:0 auto;padding:8px 16px 40px}
 .footer-social{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px}
 .footer-social a{color:var(--text)}
 @media(prefers-reduced-motion:no-preference){.card,.btn,.prevnext a{transition:border-color .15s,background .15s}}
+/* topic hub + lyrics landing (2026-10-14) */
+.chips{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-block;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--text);text-decoration:none;font-weight:650;font-size:.92rem}
+.chip:hover{border-color:var(--gold)}
+.lyr-list{padding-left:1.2em}
+.lyr-list li{margin:0 0 18px}
+.lyr-list h3{margin:0 0 4px;font-size:1.05rem}
+.lyr-start{margin:0 0 4px;color:var(--muted);font-style:italic}
