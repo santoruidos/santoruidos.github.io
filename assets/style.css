@@ -106,3 +106,9 @@ main{max-width:var(--max);margin:0 auto;padding:8px 16px 40px}
 .subbar{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;justify-content:center;padding:10px 16px;background:var(--yt);color:#fff;text-decoration:none;font-size:.95rem;line-height:1.3;text-align:center}
 .subbar b{background:#fff;color:var(--yt);border-radius:999px;padding:4px 12px;font-weight:800;white-space:nowrap}
 .subbar:hover b{background:#ffe9e7}
+.sub-ask{margin:0 0 12px;color:#d6d6d0}
+.sub-ask a{color:var(--gold)}
+.faq h3{font-size:1.05rem;margin:1.1em 0 .3em}
+.mixes h3{font-size:1rem;margin:1em 0 .2em}
+.see-also{margin-top:18px}
+.order{padding-left:1.2em}
