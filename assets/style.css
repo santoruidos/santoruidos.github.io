@@ -112,3 +112,12 @@ main{max-width:var(--max);margin:0 auto;padding:8px 16px 40px}
 .mixes h3{font-size:1rem;margin:1em 0 .2em}
 .see-also{margin-top:18px}
 .order{padding-left:1.2em}
+/* WhatsApp status kit /estados/ (EXP WAPP1, 2026-10-16) */
+.estados{list-style:none;padding:0;margin:0;display:grid;gap:20px;grid-template-columns:1fr}
+@media(min-width:560px){.estados{grid-template-columns:1fr 1fr}}
+@media(min-width:900px){.estados{grid-template-columns:repeat(3,1fr)}}
+.estado{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:12px}
+.estado video{width:100%;max-width:360px;aspect-ratio:9/16;height:auto;background:#000;border-radius:10px;display:block;margin:0 auto 10px}
+.estado h3{font-size:1.05rem;margin:0 0 2px}
+.estado h3 a{color:var(--text);text-decoration:none}
+.estado .share a{flex:1 1 150px;font-size:.92rem;padding:10px 12px}
