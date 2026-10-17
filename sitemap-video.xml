@@ -97,6 +97,18 @@
     </video:video>
   </url>
   <url>
+    <loc>https://santoruidos.github.io/canciones/se-fue-nicolas/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/8-vGkReax9k/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Se Fue Nicolás (Y la Luz También) (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Se Fue Nicolás (Y la Luz También)», gaita de protesta 2026 de Santo Ruidos. La letra imagina la partida de Nicolás como un cambio de conductor en una buseta que sigue igual. Entre hallacas, pan de jamón a medio hacer y videollamadas cortadas, reúne a la familia de aquí y de afuera en el reclamo por luz, elecciones y libertad para los presos.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/8-vGkReax9k</video:player_loc>
+      <video:duration>208</video:duration>
+      <video:publication_date>2026-10-06</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
     <loc>https://santoruidos.github.io/canciones/el-del-mazo/</loc>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/pmQzbhsAp7k/hqdefault.jpg</video:thumbnail_loc>
