@@ -4,3 +4,5 @@ Allow: /
 Sitemap: https://santoruidos.github.io/sitemap.xml
 Sitemap: https://santoruidos.github.io/sitemap-paginas.xml
 Sitemap: https://santoruidos.github.io/sitemap.txt
+Sitemap: https://santoruidos.github.io/sitemap-index.xml
+Sitemap: https://santoruidos.github.io/sitemap-video.xml
