@@ -312,4 +312,16 @@
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/quinientos-seis/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/3CXh1YF5Ko0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Quinientos Seis (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Quinientos Seis», gaita de protesta 2026 de Santo Ruidos. Para los maestros de Venezuela, que ganan quinientos seis dólares… según el ministro. ¡Ministro, raspó el examen!</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/3CXh1YF5Ko0</video:player_loc>
+      <video:duration>237</video:duration>
+      <video:publication_date>2026-10-17</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
 </urlset>
