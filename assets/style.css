@@ -122,3 +122,14 @@ main{max-width:var(--max);margin:0 auto;padding:8px 16px 40px}
 .estado h3 a{color:var(--text);text-decoration:none}
 .estado .share a{flex:1 1 150px;font-size:.92rem;padding:10px 12px}
 .embed-code{white-space:pre-wrap;word-break:break-all;background:#161b22;border:1px solid #30363d;border-radius:8px;padding:12px;font-size:.85rem;overflow:auto;user-select:all}
+
+/* prensa / EPK (19 oct 2026) */
+.press-grid{display:grid;gap:16px;grid-template-columns:1fr 1fr}
+@media(min-width:760px){.press-grid{grid-template-columns:repeat(4,1fr)}}
+.press-fig{margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:10px;display:flex;flex-direction:column;gap:8px}
+.press-fig img{width:100%;height:auto;border-radius:8px;background:#000}
+.press-fig figcaption{font-size:.86rem;color:var(--muted)}
+.facts{padding-left:1.1em}.facts li{margin-bottom:.6em}
+.quote{margin:0 0 14px;padding:10px 16px;border-left:4px solid var(--gold);background:var(--bg2);border-radius:0 var(--radius) var(--radius) 0}
+.quote p{margin:0 0 .3em;font:italic 1.1rem/1.45 var(--serif)}
+.quote footer{font-size:.84rem;color:var(--muted)}
