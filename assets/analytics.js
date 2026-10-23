@@ -55,6 +55,8 @@
   }
 
   function installUI() {
+    if (document.__srAnalyticsInstalled) return;
+    document.__srAnalyticsInstalled = true;
     var style = document.createElement('style');
     style.textContent = '.sr-privacy{position:fixed;right:1rem;bottom:1rem;z-index:9999;font:16px system-ui;color:#fff}.sr-privacy button{font:inherit;padding:.65rem .9rem;border:1px solid #aaa;border-radius:.4rem;background:#171b22;color:inherit;cursor:pointer}.sr-privacy-panel{position:fixed;left:1rem;right:1rem;bottom:4.5rem;max-width:38rem;margin:auto;padding:1rem;background:#171b22;color:#fff;border:1px solid #777;border-radius:.5rem;box-shadow:0 4px 24px #0008}.sr-privacy-panel[hidden]{display:none}.sr-privacy-actions{display:flex;gap:.6rem;flex-wrap:wrap}.sr-privacy-panel a{color:#b7d7ff}@media(max-width:480px){.sr-privacy{right:.5rem;bottom:.5rem}.sr-privacy-panel{left:.5rem;right:.5rem;bottom:4rem}}';
     document.head.appendChild(style);
