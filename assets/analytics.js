@@ -5,6 +5,7 @@
   var MEASUREMENT_ID = 'G-XZ5V1051KF';
   var memoryChoice = null;
   var started = false;
+  var musicOutboundHandlerInstalled = false;
   var consent = null;
 
   function readChoice() {
@@ -133,6 +134,29 @@
     root.appendChild(opener);
     root.appendChild(panel);
     document.body.appendChild(root);
+
+    if (!musicOutboundHandlerInstalled) {
+      musicOutboundHandlerInstalled = true;
+      document.addEventListener('click', function (event) {
+        if (consent !== 'accepted' || typeof window.gtag !== 'function') return;
+        var target = event.target;
+        var link = target && typeof target.closest === 'function' ? target.closest('a[href]') : null;
+        if (!link || !link.href) return;
+        var service = null;
+        try {
+          var destination = new URL(link.href);
+          if (destination.protocol !== 'https:') return;
+          if (destination.hostname === 'open.spotify.com') service = 'spotify';
+          else if (destination.hostname === 'music.apple.com' || destination.hostname === 'geo.music.apple.com') service = 'apple_music';
+          else if (destination.hostname === 'music.youtube.com') service = 'youtube_music';
+          else if (destination.hostname === 'music.amazon.com') service = 'amazon_music';
+        } catch (error) {
+          return;
+        }
+        if (!service) return;
+        window.gtag('event', 'music_outbound_click', { service: service });
+      });
+    }
 
     var choice = readChoice();
     if (choice === 'accepted') {
