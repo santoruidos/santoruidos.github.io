@@ -36,6 +36,9 @@ main{max-width:var(--max);margin:0 auto;padding:8px 16px 40px}
 .crumbs a{color:var(--muted)}
 /* buttons */
 .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 8px}
+.ytm-save-help{margin:.75rem 0 1rem;padding:.65rem 1rem;background:var(--bg2);border:1px solid var(--line);border-radius:var(--radius)}
+.ytm-save-help summary{min-height:48px;padding:.65rem 0;cursor:pointer;font-weight:750;color:var(--gold2)}
+.ytm-save-help p{margin:.5rem 0 0;color:var(--text)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:12px 20px;border-radius:999px;font-weight:800;text-decoration:none;font-size:1rem;border:2px solid transparent}
 .btn-yt{background:var(--yt);color:#fff;font-size:1.08rem}
 .btn-yt:hover{background:#ff2b1f}
