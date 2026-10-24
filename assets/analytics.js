@@ -54,6 +54,48 @@
     document.head.appendChild(script);
   }
 
+  // Classify the destination type; a music host alone does not imply listening.
+  function musicClick(link) {
+    var u;
+    try { u = new URL(link.href); } catch (error) { return null; }
+    if (u.protocol !== 'https:') return null;
+    var host = u.hostname, path = u.pathname, service = null, type = null;
+    if (host === 'open.spotify.com') {
+      service = 'spotify';
+      var spotify = path.match(/^\/(track|album|playlist|artist)\/[A-Za-z0-9]{22}\/?$/);
+      if (spotify) type = { track: 'listen_track', album: 'listen_album', playlist: 'listen_playlist', artist: 'open_profile' }[spotify[1]];
+    } else if (host === 'music.apple.com' || host === 'geo.music.apple.com') {
+      service = 'apple_music';
+      if (/^\/[a-z]{2}\/album\/[^/]+\/\d+\/?$/.test(path)) type = /^\d+$/.test(u.searchParams.get('i') || '') ? 'listen_track' : 'listen_album';
+      else if (/^\/[a-z]{2}\/song\/(?:[^/]+\/)?\d+\/?$/.test(path)) type = 'listen_track';
+      else if (/^\/[a-z]{2}\/playlist\/[^/]+\/pl\.[A-Za-z0-9-]+\/?$/.test(path)) type = 'listen_playlist';
+      else if (/^\/[a-z]{2}\/artist\/(?:[^/]+\/)?\d+\/?$/.test(path)) type = 'open_profile';
+    } else if (host === 'music.amazon.com') {
+      service = 'amazon_music';
+      if (/^\/albums\/[A-Z0-9]+\/?$/.test(path)) type = u.searchParams.get('trackAsin') ? 'listen_track' : 'listen_album';
+      else if (/^\/tracks\/[A-Z0-9]+\/?$/.test(path)) type = 'listen_track';
+      else if (/^\/artists\/[A-Z0-9]+\/?$/.test(path)) type = 'open_profile';
+    } else if (host === 'music.youtube.com' || host === 'www.youtube.com' || host === 'youtube.com' || host === 'youtu.be') {
+      service = host === 'music.youtube.com' ? 'youtube_music' : 'youtube';
+      if ((path === '/watch' && /^[A-Za-z0-9_-]{11}$/.test(u.searchParams.get('v') || '')) ||
+          (host === 'youtu.be' && /^\/[A-Za-z0-9_-]{11}$/.test(path))) type = 'watch_video';
+      else if (path === '/playlist' && /^[A-Za-z0-9_-]+$/.test(u.searchParams.get('list') || '')) {
+        type = link.getAttribute('data-cta-type') === 'listen_album' && service === 'youtube_music' ? 'listen_album' : 'listen_playlist';
+      } else if (/^\/(?:channel\/[^/]+|@[^/]+)(?:\/videos)?\/?$/.test(path)) {
+        type = u.searchParams.get('sub_confirmation') === '1' ? 'subscribe_profile' : 'open_profile';
+      }
+      // Do not count an iframe or unsupported YouTube URL as a watch CTA.
+      if (!type && service === 'youtube') return null;
+    }
+    if (!service) return null;
+    var params = { service: service };
+    if (type) params.cta_type = type;
+    if (type === 'open_profile' && link.getAttribute('data-cta-type') === 'follow_profile') params.cta_type = 'follow_profile';
+    var slug = link.getAttribute('data-content-slug');
+    if (/^(listen_track|listen_album|listen_playlist|watch_video)$/.test(type || '') && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug || '') && slug.length <= 120) params.content_slug = slug;
+    return params;
+  }
+
   function installUI() {
     if (document.__srAnalyticsInstalled) return;
     document.__srAnalyticsInstalled = true;
@@ -144,19 +186,8 @@
         var target = event.target;
         var link = target && typeof target.closest === 'function' ? target.closest('a[href]') : null;
         if (!link || !link.href) return;
-        var service = null;
-        try {
-          var destination = new URL(link.href);
-          if (destination.protocol !== 'https:') return;
-          if (destination.hostname === 'open.spotify.com') service = 'spotify';
-          else if (destination.hostname === 'music.apple.com' || destination.hostname === 'geo.music.apple.com') service = 'apple_music';
-          else if (destination.hostname === 'music.youtube.com') service = 'youtube_music';
-          else if (destination.hostname === 'music.amazon.com') service = 'amazon_music';
-        } catch (error) {
-          return;
-        }
-        if (!service) return;
-        window.gtag('event', 'music_outbound_click', { service: service });
+        var params = musicClick(link);
+        if (params) window.gtag('event', 'music_outbound_click', params);
       });
     }
 
