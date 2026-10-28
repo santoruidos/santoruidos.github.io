@@ -53,7 +53,7 @@
 </footer>
 <script>
 (function(){var u=location.href.split('#')[0];document.querySelectorAll('[data-share]').forEach(function(a){var t=a.getAttribute('data-text')||'',k=a.getAttribute('data-share'),e=encodeURIComponent;
-if(k==='wa')a.href='https://wa.me/?text='+e(t+' '+u);
+if(k==='wa')a.href='https://wa.me/?text='+e(t+' '+u+'\n📲 Abre sucursal, canal de gaitas en WhatsApp: https://whatsapp.com/channel/0029Vb8vtSA77qVVe8g6Of0d');
 if(k==='x')a.href='https://x.com/intent/post?text='+e(t)+'&url='+e(u);
 if(k==='fb')a.href='https://www.facebook.com/sharer/sharer.php?u='+e(u);
 if(k==='native'){if(navigator.share){a.hidden=false;a.addEventListener('click',function(ev){ev.preventDefault();navigator.share({title:document.title,text:t,url:u}).catch(function(){});});}}
