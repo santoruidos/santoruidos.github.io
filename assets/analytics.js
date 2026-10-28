@@ -209,3 +209,4 @@
     installUI();
   }
 }());
+(function(){try{var c=document.currentScript;if(!c)return;var x=document.createElement('script');x.src=new URL('clicks.js',c.src).href;x.defer=true;document.head.appendChild(x);}catch(e){}})();
