@@ -136,3 +136,23 @@ main{max-width:var(--max);margin:0 auto;padding:8px 16px 40px}
 .quote{margin:0 0 14px;padding:10px 16px;border-left:4px solid var(--gold);background:var(--bg2);border-radius:0 var(--radius) var(--radius) 0}
 .quote p{margin:0 0 .3em;font:italic 1.1rem/1.45 var(--serif)}
 .quote footer{font-size:.84rem;color:var(--muted)}
+
+/* Shared discovery links: always visible after the YouTube subscription ask. */
+.platform-links{max-width:calc(var(--max) - 32px);margin:4px auto 20px;padding:18px;background:var(--bg2);border:1px solid var(--line);border-radius:var(--radius)}
+.platform-links-heading h2{font-size:1.12rem;margin:0 0 4px}
+.platform-links-heading p{font-size:.9rem;color:var(--muted);margin:0 0 14px}
+.platform-links-primary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.platform-links-primary .btn{font-size:.9rem;line-height:1.3;padding:10px 12px;border-radius:10px;overflow-wrap:anywhere}
+.platform-link-spotify{border-color:#1db954}
+.platform-link-whatsapp{border-color:#36c96b}
+.platform-link-telegram{border-color:#40b5eb}
+.platform-links-more{margin-top:12px;border-top:1px solid var(--line)}
+.platform-links-more summary{display:list-item;width:fit-content;min-height:44px;padding:10px 4px;cursor:pointer;font-size:.92rem;font-weight:700;color:var(--gold2)}
+.platform-links-more summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.platform-links-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;padding-top:12px}
+.platform-links-groups h3{font-size:.95rem;line-height:1.4;margin:0 0 8px}
+.platform-links-groups ul{display:flex;flex-direction:column;list-style:none;padding:0;margin:0}
+.platform-links-groups a{display:flex;align-items:center;min-height:44px;padding:6px 0;overflow-wrap:anywhere;font-size:.92rem;text-underline-offset:3px}
+@media(max-width:700px){.platform-links-primary{grid-template-columns:repeat(2,minmax(0,1fr))}.platform-links-groups{grid-template-columns:1fr;gap:18px}.platform-links-groups ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:16px}}
+@media(max-width:380px){.platform-links{padding:14px}.platform-links-primary .btn{font-size:.84rem;padding:10px 8px}}
+/* Shared discovery links:end */
