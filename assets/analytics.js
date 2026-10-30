@@ -8,6 +8,17 @@
   var musicOutboundHandlerInstalled = false;
   var consent = null;
 
+  function isQA() {
+    if (window.__srQA === true) return true;
+    try {
+      var page = new URL(document.baseURI);
+      return page.searchParams.has('qa') ||
+        page.hostname === 'localhost' || page.hostname === '127.0.0.1' || page.hostname === '[::1]';
+    } catch (error) {
+      return false;
+    }
+  }
+
   function readChoice() {
     try {
       var value = window.localStorage.getItem(KEY);
@@ -27,7 +38,7 @@
   }
 
   function loadAnalytics() {
-    if (started) return;
+    if (started || isQA()) return;
     started = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () { window.dataLayer.push(arguments); };
@@ -74,7 +85,7 @@
       service = 'amazon_music';
       if (/^\/albums\/[A-Z0-9]+\/?$/.test(path)) type = u.searchParams.get('trackAsin') ? 'listen_track' : 'listen_album';
       else if (/^\/tracks\/[A-Z0-9]+\/?$/.test(path)) type = 'listen_track';
-      else if (/^\/artists\/[A-Z0-9]+\/?$/.test(path)) type = 'open_profile';
+      else if (/^\/artists\/[A-Z0-9]+(?:\/[^/]+)?\/?$/.test(path)) type = 'open_profile';
     } else if (host === 'music.youtube.com' || host === 'www.youtube.com' || host === 'youtube.com' || host === 'youtu.be') {
       service = host === 'music.youtube.com' ? 'youtube_music' : 'youtube';
       if ((path === '/watch' && /^[A-Za-z0-9_-]{11}$/.test(u.searchParams.get('v') || '')) ||
@@ -182,7 +193,7 @@
     if (!musicOutboundHandlerInstalled) {
       musicOutboundHandlerInstalled = true;
       document.addEventListener('click', function (event) {
-        if (consent !== 'accepted' || typeof window.gtag !== 'function') return;
+        if (isQA() || consent !== 'accepted' || typeof window.gtag !== 'function') return;
         var target = event.target;
         var link = target && typeof target.closest === 'function' ? target.closest('a[href]') : null;
         if (!link || !link.href) return;
@@ -209,4 +220,24 @@
     installUI();
   }
 }());
-(function(){try{var c=document.currentScript;if(!c)return;var x=document.createElement('script');x.src=new URL('clicks.js',c.src).href;x.defer=true;document.head.appendChild(x);}catch(e){}})();
+
+// Keep the consent-independent click counter available after a source rebuild.
+// An explicit/deferred clicks.js tag may already exist on a standalone page.
+(function () {
+  try {
+    var current = document.currentScript;
+    if (!current || !current.src) return;
+    var source = new URL('clicks.js', current.src);
+    var scripts = document.querySelectorAll('script[src]');
+    for (var i = 0; i < scripts.length; i += 1) {
+      var existing = new URL(scripts[i].src, document.baseURI);
+      if (existing.origin === source.origin && existing.pathname === source.pathname) return;
+    }
+    var script = document.createElement('script');
+    script.src = source.href;
+    script.defer = true;
+    document.head.appendChild(script);
+  } catch (error) {
+    // Optional statistics must never prevent the page or its music from working.
+  }
+}());
