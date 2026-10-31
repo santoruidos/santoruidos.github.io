@@ -36,18 +36,38 @@
   status.className = 'song-finder-status';
   status.setAttribute('role', 'status');
   status.setAttribute('aria-live', 'polite');
-  function update(value) {
-    var terms = normalized(value).trim().split(/\s+/).filter(Boolean);
+  function filterTerms(terms) {
     var matches = 0;
     items.forEach(function (item) {
       item.node.hidden = !terms.every(function (term) { return item.text.indexOf(term) !== -1; });
       if (!item.node.hidden) matches += 1;
     });
+    return matches;
+  }
+  function update(value) {
+    var terms = normalized(value).trim().split(/\s+/).filter(Boolean);
+    var matches = filterTerms(terms);
+    var recovered = false;
+    var needsTitle = false;
+    if (!matches && terms.length) {
+      var titleTerms = terms.slice();
+      var purpose = /^(letra|lyrics|gaita)$/;
+      while (titleTerms.length && purpose.test(titleTerms[0])) titleTerms.shift();
+      while (titleTerms.length && purpose.test(titleTerms[titleTerms.length - 1])) titleTerms.pop();
+      if (titleTerms.length < terms.length) {
+        needsTitle = !titleTerms.length;
+        if (!needsTitle) {
+          matches = filterTerms(titleTerms);
+          recovered = matches > 0;
+        }
+      }
+    }
     lists.forEach(function (list) {
       var album = list.closest('.album');
       if (album) album.hidden = !Array.prototype.some.call(list.children, function (item) { return !item.hidden; });
     });
-    status.textContent = matches ? matches + (matches === 1 ? ' canción disponible.' : ' canciones disponibles.') : 'No encontramos ese título. Prueba otra palabra o pulsa «Ver todas».';
+    var message = matches ? matches + (matches === 1 ? ' canción disponible.' : ' canciones disponibles.') : 'No encontramos ese título. Prueba otra palabra o pulsa «Ver todas».';
+    status.textContent = needsTitle ? 'Escribe una palabra del título o pulsa «Ver todas».' : (recovered ? 'Por palabras del título: ' : '') + message;
   }
   input.addEventListener('input', function () { update(input.value); });
   form.addEventListener('submit', function (event) { event.preventDefault(); });
