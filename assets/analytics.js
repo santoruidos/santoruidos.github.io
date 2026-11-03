@@ -49,7 +49,7 @@
       ad_personalization: 'denied'
     });
     window.gtag('set', 'linker', {
-      domains: ['santoruidos.github.io', 'santo-ruidos-gaitas.aglowhare1.chatgpt.site']
+      domains: ['santoruidos.github.io']
     });
     window.gtag('js', new Date());
     window.gtag('consent', 'update', {
