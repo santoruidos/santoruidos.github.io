@@ -8,7 +8,9 @@
   lists.forEach(function (list, index) {
     list.id = list.id || 'catalog-tracks-' + index;
     Array.prototype.forEach.call(list.children, function (item) {
-      items.push({ node: item, text: normalized(item.textContent) });
+      var link = item.querySelector('a[href]');
+      items.push({ node: item, text: normalized(item.textContent), link: link,
+        href: link && link.getAttribute('href') });
     });
   });
   function normalized(value) {
@@ -103,6 +105,9 @@
         lyricMatch = matches > 0;
       }
     }
+    items.forEach(function (item) {
+      if (item.link) item.link.setAttribute('href', item.href + (lyricMatch && !item.node.hidden ? '#letra' : ''));
+    });
     lists.forEach(function (list) {
       var album = list.closest('.album');
       if (album) album.hidden = !Array.prototype.some.call(list.children, function (item) { return !item.hidden; });
