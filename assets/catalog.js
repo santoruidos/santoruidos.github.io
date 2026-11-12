@@ -22,7 +22,7 @@
   function readLyricIndex() {
     try {
       var script = document.getElementById('catalog-lyrics');
-      if (!script || script.getAttribute('type') !== 'application/json' || script.textContent.length > 65536) return null;
+      if (!script || script.getAttribute('type') !== 'application/json' || script.textContent.length > 131072) return null;
       var data = JSON.parse(script.textContent);
       if (!Array.isArray(data) || data.length !== items.length) return null;
       var bySlug = Object.create(null);

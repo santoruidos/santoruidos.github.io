@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/nos-dejaron-la-hoja/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/khRBe-dg5MM/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Nos Dejaron la Hoja (Letra) · Santo Ruidos</video:title>
@@ -28,7 +28,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/bolichico-premiado/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/Y66T7kr8VKE/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Bolichico Premiado (Letra) · Santo Ruidos</video:title>
@@ -106,7 +106,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/se-fue-nicolas/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/8-vGkReax9k/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Se Fue Nicolás (Y la Luz También) (Letra) · Santo Ruidos</video:title>
@@ -158,7 +158,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/el-aguinaldo-de-15-centavos/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/Lg42eJncexA/hqdefault.jpg</video:thumbnail_loc>
       <video:title>El Aguinaldo de 15 Centavos (Letra) · Santo Ruidos</video:title>
@@ -171,7 +171,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/el-reloj-de-delcy/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/EwTnOkUUSk4/hqdefault.jpg</video:thumbnail_loc>
       <video:title>El Reloj de Delcy (Letra) · Santo Ruidos</video:title>
@@ -223,7 +223,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/la-puerta-giratoria/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/niKakbO-fWs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>La Puerta Giratoria (Letra) · Santo Ruidos</video:title>
@@ -275,7 +275,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/la-maleta-al-reves/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/qUyI1gz00DE/hqdefault.jpg</video:thumbnail_loc>
       <video:title>La Maleta al Revés (Letra) · Santo Ruidos</video:title>
@@ -287,8 +287,34 @@
     </video:video>
   </url>
   <url>
+    <loc>https://santoruidos.github.io/canciones/no-olvidamos/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/FmpyTM0BLlA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>No Olvidamos (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «No Olvidamos», gaita de protesta 2026 de Santo Ruidos. Para los que creyeron que el miedo borra la memoria: El Junquito, el Helicoide, el FAES. No olvidamos, y la justicia va a llegar.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/FmpyTM0BLlA</video:player_loc>
+      <video:duration>206</video:duration>
+      <video:publication_date>2026-10-20</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/tenemos-el-paraiso/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Bi61YD5Uyyc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Tenemos el Paraíso (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Tenemos el Paraíso», gaita de protesta 2026 de Santo Ruidos. Del Salto Ángel a Los Roques, del Catatumbo a Coro: tenemos de todo… menos luz, agua y gobierno.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Bi61YD5Uyyc</video:player_loc>
+      <video:duration>231</video:duration>
+      <video:publication_date>2026-10-18</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
     <loc>https://santoruidos.github.io/canciones/y-la-plata-donde-esta/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/KJPbzodQQEw/hqdefault.jpg</video:thumbnail_loc>
       <video:title>¿Y la Plata Dónde Está? (Letra) · Santo Ruidos</video:title>
@@ -301,7 +327,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/mansas-palomas/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/YkKZuyFJvDs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Mansas Palomas (Letra) · Santo Ruidos</video:title>
@@ -314,7 +340,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/a-limpiar-pocetas/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/6k8svY1bLeg/hqdefault.jpg</video:thumbnail_loc>
       <video:title>A Limpiar Pocetas (Letra) · Santo Ruidos</video:title>
@@ -326,8 +352,21 @@
     </video:video>
   </url>
   <url>
+    <loc>https://santoruidos.github.io/canciones/ojo-con-el-camaleon/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/hYXeWWr5l3o/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Ojo con el Camaleón (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Ojo con el Camaleón», gaita de protesta 2026 de Santo Ruidos. Opositores de mentira: de día gritan «libertad» y de noche cenan en Miraflores. ¡Ojo con el camaleón!</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/hYXeWWr5l3o</video:player_loc>
+      <video:duration>203</video:duration>
+      <video:publication_date>2026-10-18</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
     <loc>https://santoruidos.github.io/canciones/pasaporte-vencido/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/V5jbYJkQUTs/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Pasaporte Vencido (Letra) · Santo Ruidos</video:title>
@@ -340,7 +379,7 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/la-vacuna/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/_hyCUxJzpN8/hqdefault.jpg</video:thumbnail_loc>
       <video:title>La Vacuna (Letra) · Santo Ruidos</video:title>
@@ -352,8 +391,21 @@
     </video:video>
   </url>
   <url>
+    <loc>https://santoruidos.github.io/canciones/amnistia-con-tobillera/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/wZxSlhEMdYA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Amnistía con Tobillera (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Amnistía con Tobillera», gaita de protesta 2026 de Santo Ruidos. Para las madres que duermen en la acera del Rodeo esperando una amnistía que no les llegó. Libertad pa&#x27; los presos políticos.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/wZxSlhEMdYA</video:player_loc>
+      <video:duration>238</video:duration>
+      <video:publication_date>2026-10-19</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
     <loc>https://santoruidos.github.io/canciones/quinientos-seis/</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/3CXh1YF5Ko0/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Quinientos Seis (Letra) · Santo Ruidos</video:title>
@@ -365,8 +417,21 @@
     </video:video>
   </url>
   <url>
+    <loc>https://santoruidos.github.io/canciones/que-lo-supere/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/p9s_D8nYUU0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>¿Que lo Supere? (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «¿Que lo Supere?», gaita de protesta 2026 de Santo Ruidos. Ahora piden abrazos después de diez años de garrote. No es borrón y cuenta nueva: primero la verdad y el juicio.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/p9s_D8nYUU0</video:player_loc>
+      <video:duration>213</video:duration>
+      <video:publication_date>2026-10-19</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
     <loc>https://santoruidos.github.io/canciones/amanecer-gaitero/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/Nr942CssL8k/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Amanecer Gaitero (Letra) · Santo Ruidos</video:title>
@@ -379,27 +444,170 @@
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/misa-de-aguinaldo/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/A-MEWkckSGU/hqdefault.jpg</video:thumbnail_loc>
       <video:title>Misa de Aguinaldo (Letra) · Santo Ruidos</video:title>
       <video:description>Letra completa y video de «Misa de Aguinaldo», gaita de protesta 2026 de Santo Ruidos. Gaita navideña zuliana: patines, cordel en el dedo y misa a las cinco… el único que no madruga es el sueldo.</video:description>
       <video:player_loc>https://www.youtube-nocookie.com/embed/A-MEWkckSGU</video:player_loc>
       <video:duration>174</video:duration>
-      <video:publication_date>2026-11-11</video:publication_date>
+      <video:publication_date>2026-11-04</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>
   <url>
     <loc>https://santoruidos.github.io/canciones/la-carta-al-nino-jesus/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/3YNZvV5xNGM/hqdefault.jpg</video:thumbnail_loc>
       <video:title>La Carta al Niño Jesús (Letra) · Santo Ruidos</video:title>
       <video:description>Letra completa y video de «La Carta al Niño Jesús», gaita de protesta 2026 de Santo Ruidos. Gaita navideña venezolana: «Niño, tráeme una bici… y si puedes, la lucita». Los de arriba piden en dólares; el Niño es el único que cumple.</video:description>
       <video:player_loc>https://www.youtube-nocookie.com/embed/3YNZvV5xNGM</video:player_loc>
       <video:duration>175</video:duration>
-      <video:publication_date>2026-11-11</video:publication_date>
+      <video:publication_date>2026-11-05</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/el-estreno/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/E3OdIsMLFG0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>El Estreno (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «El Estreno», gaita de protesta 2026 de Santo Ruidos. Gaita navideña: el estreno del 24 sacado en cuatro cuotas. Todo nuevo, como siempre… y el sueldo del año viejo. En marzo todavía se pagan las botas.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/E3OdIsMLFG0</video:player_loc>
+      <video:duration>172</video:duration>
+      <video:publication_date>2026-11-05</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/maracucho-hasta-la-medula/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/2cRjfcrUPGE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Maracucho Hasta la Médula (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Maracucho Hasta la Médula», gaita de protesta 2026 de Santo Ruidos. Orgullo zuliano con el puente, el lago y el patacón: sudadito hasta la cédula. La luz se va a cada rato, ¡y la gaita, ni un momento!</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/2cRjfcrUPGE</video:player_loc>
+      <video:duration>175</video:duration>
+      <video:publication_date>2026-11-06</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/larense-de-pie/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/6TZwPjqYvjU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Larense de Pie (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Larense de Pie», gaita de protesta 2026 de Santo Ruidos. Para Barquisimeto y la Divina Pastora: siete kilómetros a pie con la promesa, del tamunangue al fogón. El larense camina; ellos no dan ni un paso.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/6TZwPjqYvjU</video:player_loc>
+      <video:duration>195</video:duration>
+      <video:publication_date>2026-11-06</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/oriente-con-sabor/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/9CKJ9wOFTSA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Oriente con Sabor (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Oriente con Sabor», gaita de protesta 2026 de Santo Ruidos. Cumaná, el malecón y la empanada de cazón: el pescado es de nosotros, pero el precio es de la esquina. Oriente goza hasta en el apagón.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/9CKJ9wOFTSA</video:player_loc>
+      <video:duration>212</video:duration>
+      <video:publication_date>2026-11-07</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/caraqueno-de-barrio/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/yXtyltF0F2A/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Caraqueño de Barrio (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Caraqueño de Barrio», gaita de protesta 2026 de Santo Ruidos. De Catia, con el Ávila de frente y el Metro a las seis: burda de pana y burda de cola. Una gaita para el caraqueño que no se rinde.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/yXtyltF0F2A</video:player_loc>
+      <video:duration>186</video:duration>
+      <video:publication_date>2026-11-07</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/coleando/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/vWTiFDFoLLY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Coleando (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Coleando», gaita de protesta 2026 de Santo Ruidos. Gaita llanera con arpa, joropo y carne en vara: el llanero colea al toro y el pueblo sigue esperando la gandola. En la bomba, el que manda pasa de primero.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/vWTiFDFoLLY</video:player_loc>
+      <video:duration>202</video:duration>
+      <video:publication_date>2026-11-08</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/medano-y-chivo/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/P6trTB6LCt8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Médano y Chivo (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Médano y Chivo», gaita de protesta 2026 de Santo Ruidos. Falcón con brisa y con sal: Coro, los médanos, Paraguaná y el chivo en coco. Sobra la arena caliente, ¡y el agua, ni en carnaval!</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/P6trTB6LCt8</video:player_loc>
+      <video:duration>197</video:duration>
+      <video:publication_date>2026-11-08</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/un-venezolano-en-cualquier-parte/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Rb7bnUMSeko/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Un Venezolano en Cualquier Parte (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Un Venezolano en Cualquier Parte», gaita de protesta 2026 de Santo Ruidos. Para la diáspora: en Doral, Madrid o Santiago, un venezolano monta el pesebre, la hallaca y la gaita. La patria la cargamos en la maleta.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/Rb7bnUMSeko</video:player_loc>
+      <video:duration>181</video:duration>
+      <video:publication_date>2026-11-09</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/devuelvase/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/VzZNEqvMbKE/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>¡Devuélvase! (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «¡Devuélvase!», gaita de protesta 2026 de Santo Ruidos. Primero fue «¡Exprópiese!» y ahora es «¡Devuélvase!»: veinte años después devuelven el abasto vacío y chiquito. El pueblo también tiene su lista.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/VzZNEqvMbKE</video:player_loc>
+      <video:duration>173</video:duration>
+      <video:publication_date>2026-11-10</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/mi-abuela-jubilada/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/0clIfPRKJcI/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Mi Abuela Jubilada (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Mi Abuela Jubilada», gaita de protesta 2026 de Santo Ruidos. Cuarenta años de maestra y una pensión que no alcanza: hoy la abuela vende conservas de coco en la esquina. No se rinde ni se queja.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/0clIfPRKJcI</video:player_loc>
+      <video:duration>172</video:duration>
+      <video:publication_date>2026-11-10</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/andino-callado/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/rqXOUe58OT8/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Andino Callado (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «Andino Callado», gaita de protesta 2026 de Santo Ruidos. Desde el páramo: ruana, pisca y café, donde hasta al frío lo tratan de usted. El andino pide gas bien educado… y le contestan: «Aguanta».</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/rqXOUe58OT8</video:player_loc>
+      <video:duration>199</video:duration>
+      <video:publication_date>2026-11-12</video:publication_date>
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>
