@@ -676,4 +676,17 @@
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>
+  <url>
+    <loc>https://santoruidos.github.io/canciones/de-grano-en-grano/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/27rbyH5Erq4/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>De Grano en Grano (Letra) · Santo Ruidos</video:title>
+      <video:description>Letra completa y video de «De Grano en Grano», gaita de protesta 2026 de Santo Ruidos. Lo imposible no se hace de un día para otro: se hace de grano en grano. La queja no siembra nada; uno solo empieza y los demás se van sumando, como el furro, que no hace fiesta sin la tambora y el cuatro.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/27rbyH5Erq4</video:player_loc>
+      <video:duration>196</video:duration>
+      <video:publication_date>2026-11-14</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
 </urlset>
