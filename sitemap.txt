@@ -50,6 +50,7 @@ https://santoruidos.github.io/canciones/mi-abuela-jubilada/
 https://santoruidos.github.io/canciones/andino-callado/
 https://santoruidos.github.io/canciones/la-sapoara/
 https://santoruidos.github.io/canciones/ni-un-megavatio/
+https://santoruidos.github.io/canciones/la-cola-de-la-gasolina/
 https://santoruidos.github.io/canciones/la-luz-es-la-gente/
 https://santoruidos.github.io/canciones/venezuela-va-a-nacer/
 https://santoruidos.github.io/canciones/la-maleta-de-las-doce/
@@ -127,6 +128,7 @@ https://santoruidos.github.io/gaitas-sobre-corrupcion/
 https://santoruidos.github.io/gaitas-sobre-trabajo-y-salarios/
 https://santoruidos.github.io/estados/
 https://santoruidos.github.io/prensa/
+https://santoruidos.github.io/sobre-santo-ruidos/
 https://santoruidos.github.io/escuchar/
 https://santoruidos.github.io/noticias/
 https://santoruidos.github.io/noticias/2026-10-28-apagones-alivio-prometido/
